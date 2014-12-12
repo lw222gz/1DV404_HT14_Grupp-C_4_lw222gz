@@ -1,0 +1,6 @@
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.exe.config
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.csprojResolveAssemblyReference.cache
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.exe
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.pdb
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.exe
+c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.pdb
