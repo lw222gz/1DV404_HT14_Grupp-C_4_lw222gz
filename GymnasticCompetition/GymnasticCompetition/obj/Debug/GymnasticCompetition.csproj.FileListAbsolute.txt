@@ -4,3 +4,9 @@ c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\Gymnas
 c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.pdb
 c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.exe
 c:\users\lucas\documents\visual studio 2013\Projects\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.pdb
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.exe.config
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.exe
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.pdb
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.exe
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\bin\Debug\GymnasticCompetition.pdb
+C:\Users\Lucas\Csharp\1DV404_lw222gz_labb_3\GymnasticCompetition\GymnasticCompetition\obj\Debug\GymnasticCompetition.csprojResolveAssemblyReference.cache
