@@ -110,9 +110,6 @@ namespace GymnasticCompetition
         {
             TeamNames[Index] = NewName;
             return TeamNames;
-            //teamNames[0] = "Hej";
-            //teamNames[Array.IndexOf(teamNames, "Hej")] = "Nej"; // <--- detta funkar
-            //throw new ArgumentException();
         }
 
         public string[,] ChangeTeamMember()
