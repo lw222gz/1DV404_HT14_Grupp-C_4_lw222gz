@@ -28,7 +28,7 @@ namespace GymnasticCompetition
         //konstruktor
         public Register(string _teamName)
         {
-            TeamName = _teamName;
+            TeamName = _teamName.Trim();
         }
 
         // Kolla om lag namnet redan finns regisrerat

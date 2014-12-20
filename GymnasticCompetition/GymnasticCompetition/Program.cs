@@ -34,11 +34,24 @@ namespace GymnasticCompetition
                 Menu();
                 try
                 {
+                    //Uppgift 5.
+                    //GymnasticCompetitionTest Tests = new GymnasticCompetitionTest();
+                    //Tests.TestOne(); // Check - test lyckat, ett Argument Exception kastades !Feedback - 1 Fails, hade inte använt Trim() på straängen som sickades med.
+                    //Tests.TestTwo(); // Check - test lyckat, ett Argument Exception kastades !Feedback - 0 Fails, tack vare att märkte problemet med test 1 så fixade jag det här också
+                    //Tests.TestThree(); // Check - test lyckat, ett Argument Exception kastades !Feedback - 1 Fails, kollade aldrig i klassen editor om namnet redan fanns med i arrayn så jag skapade ett register objekt och använde Check metoden i den klassen.
+
+                    //Uppgift 6. Interagations test (Ett test av följande funktioner efter att konfimerat att de övre testerna är lyckade)
+                    //Tests.InteragtionTest(); //Användnings fall 1: Check - test lyckat, båda if-satserna går igenom vilket betyder att önskar resultat har hänt.
+                    //Användnings fall 2: Check - test lyckat, den skriver ut "5" och "önskat resultat"x2. Dvs testet går igenom eftersom namnbyte/ poängbyte genomfördes lyckat och sattes på rätt array plats.
+
+                    // switch sats meny
+
                     int choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
                         case 0: return;
-                           
+                          
+                            // registerar ett lag och lägger det i en array
                         case 1:
                             Console.Clear();
                             Console.Write("Ange lagets namn: ");
@@ -69,7 +82,8 @@ namespace GymnasticCompetition
                                 Console.ResetColor();
                             }
                             break;
-
+            
+                            // editera möjligheter för namn ändring av lag eller deltagare
                         case 2:
                             if (register != null)
                             {
@@ -135,6 +149,7 @@ namespace GymnasticCompetition
                             
                             break;
 
+                            // edit möjligheter för att ändra eller ge ut poäng.
                         case 3:
                             if (register != null)
                             {
@@ -218,14 +233,14 @@ namespace GymnasticCompetition
             Console.ResetColor();
         }
 
-        // läse in en lag medlemsnamn
+        // läser in en lagmedlems namn
         static string ReadMemberNames(string promt)
         {           
             while (true)
             {
                 Console.Write(promt);
                 string input = Console.ReadLine();
-                if (input == "")
+                if (input.Trim() == "")
                 {
                     Console.BackgroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine();

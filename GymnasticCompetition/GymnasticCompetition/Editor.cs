@@ -85,7 +85,7 @@ namespace GymnasticCompetition
         public Editor(string[,] _allMembers, int _index, int _position, string _newName)
         {
             AllMembers = _allMembers;
-            NewName = _newName;
+            NewName = _newName.Trim();
             Index = _index;
             Position = _position;
         }
@@ -93,7 +93,7 @@ namespace GymnasticCompetition
         // kontstuktor för lagnamn byte
         public Editor(string[] _teamNames, int _index, string _newName)
         {
-            NewName = _newName;
+            NewName = _newName.Trim();
             Index = _index;
             TeamNames = _teamNames;
         }
@@ -108,10 +108,20 @@ namespace GymnasticCompetition
         // byter namn på ett lag och retunerar det nya i en ny array
         public string[] ChangeTeamName()
         {
-            TeamNames[Index] = NewName;
-            return TeamNames;
+            Register check = new Register(NewName); 
+
+            if (check.check(TeamNames) == true)
+            {
+                TeamNames[Index] = NewName;
+                return TeamNames;
+            }
+            else 
+            { 
+                return TeamNames; 
+            }
         }
 
+        // byter lagmedlem och retunerar den nya arrayen
         public string[,] ChangeTeamMember()
         {
             AllMembers[Index, Position] = NewName;
